@@ -1,6 +1,8 @@
 package domain;
 
 public class ViewsPost {
-    private String pictureViewsPost;
-    private String numberViewsPost;
+    // просмотры поста
+    private int numberViewsPost; // исправила тип со String на int.
+
+    // + get/set на все поля
 }

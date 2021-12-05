@@ -1,6 +1,8 @@
 package domain;
 
 public class Share {
-    private String pictureShare;
-    private String numberShare;
+    private int numberShare;
+    public int userReposted; // поле из документации
+
+    // + get/set на все поля
 }
