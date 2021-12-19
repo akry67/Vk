@@ -4,6 +4,7 @@ public class Post {
     private String textPost;
     private String linksPost; //ссылка поста
     private int id; // поле из документации
+    private CommunityName communityName; // в документации он id типа int, я под такой тип объекта создала отдельный класс CommunityName с заголовком группы и датой и временем
     private int ownerId; // поле из документации
     private int fromId; // поле из документации
     private int createdBy; // поле из документации
