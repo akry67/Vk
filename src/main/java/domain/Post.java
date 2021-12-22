@@ -20,6 +20,14 @@ public class Post {
     private int markedAsAds; // поле из документации
     private boolean isFavorite; // поле из документации
     private int postponedId; // поле из документации
+    private LikesPost likesPost; // в документации он типа object, под такой тип объекта мы создали отдельный класс LikesPost
+    private Share share; // в документации он типа object, под такой тип объекта мы создали отдельный класс Share
+    private ViewsPost viewsPost; // в документации он типа object, под такой тип объекта мы создали отдельный класс ViewsPost
+    private PostSource postSource; // в документации он типа object, под такой тип объекта мы создали отдельный класс PostSource
+    private Geo geo; // в документации он типа object, под такой тип объекта мы создали отдельный класс Geo
+    private Place place; // в документации он типа object, под такой тип объекта мы создали отдельный класс Place
+    private Donut donut; // в документации он типа object, под такой тип объекта мы создали отдельный класс Donut
+    private Placeholder placeholder; // в документации он типа object, под такой тип объекта мы создали отдельный класс Placeholder
 
     // + get/set на все поля
 }
